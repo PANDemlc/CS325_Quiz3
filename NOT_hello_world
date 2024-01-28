@@ -4,5 +4,5 @@ def fibonacci(n):
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
     
-
+print("Now Printing")
 print(f"Printing the 6th number in the fibonacci sequence: {fibonacci(6)}")
